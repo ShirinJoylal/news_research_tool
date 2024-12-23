@@ -10,8 +10,6 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from dotenv import load_dotenv
 
-port = int(os.environ.get("PORT", 5000))  # Default to 5000 if PORT is not set
-app.run(host="0.0.0.0", port=port)
 
 # Load environment variables
 load_dotenv()
